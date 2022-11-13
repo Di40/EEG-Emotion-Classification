@@ -1,12 +1,14 @@
 # EmotionRecognition
 
-Date: 09.02.2020
+Date started: 03.10.2019
 
-Emotion recognition from EEG data - [Graduation thesis](Diplomska_Dejan_Dichoski.pdf)
+Date finished: 09.02.2020
 
-Emotion representation using Circumplex Model (arrousal and valence).
+**Emotion recognition from EEG data** - [Graduation thesis](Diplomska_Dejan_Dichoski.pdf)
 
-Dataset used: [DEAP](https://www.eecs.qmul.ac.uk/mmv/datasets/deap/) - 32 people (16 male, 16 female), 40 trials per person, 32 electrodes, 128Hz
+Dataset used: [DEAP](https://www.eecs.qmul.ac.uk/mmv/datasets/deap/) - 32 people (16 male, 16 female), 40 trials per person, 32 electrodes, 128Hz.
+
+Output classes: For emotion representation the Circumplex Model (arrousal and valence) is employed.
 
 Feature extraction:
 1. Time domain:
@@ -26,4 +28,4 @@ Train-test splitting (75 train : 12.5 validation: 12.5 test):
 Classifiers: Gradient Boosting, AdaBoost, Random Forest, Extreme Gradient Boosting, Nearest Neighbors, Naive Bayes, SVM, Decision Tree.
 Evaluation metrics: accuracy and F1.
 
-Best classifier: SVM (F1: Valence 73.0, Arousal 67.01)
+Best classifier: SVM (F1: Valence 73.0, Arousal 67.01).
