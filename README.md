@@ -1,4 +1,7 @@
 # EmotionRecognition
+
+Date: 09.02.2020
+
 Emotion recognition from EEG data - [Graduation thesis](Diplomska_Dejan_Dichoski.pdf)
 
 Emotion representation using Circumplex Model (arrousal and valence).
