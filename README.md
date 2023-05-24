@@ -1,4 +1,4 @@
-# EmotionRecognition
+# EEG Emotion Recognition
 
 Date started: 03.10.2019
 
